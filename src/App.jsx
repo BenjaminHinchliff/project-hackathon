@@ -16,7 +16,7 @@ function App() {
       <Container>
         <Header />
         <NavbarComponent />
-        <Container className="bg-light">
+        <Container>
           <Switch>
             <Route path="/about">
               <About />
