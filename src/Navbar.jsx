@@ -23,7 +23,7 @@ function Navbar() {
             <Link className="nav-link" to="/">Home</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">About</a>
+            <Link className="nav-link" to="/about">About</Link>
           </li>
         </ul>
       </div>
