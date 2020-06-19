@@ -5,22 +5,26 @@ import {
   Route
 } from 'react-router-dom';
 import Header from './Header';
-import Navbar from './Navbar';
+import NavbarComponent from './Navbar';
+import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
   return (
     <Router>
       <div className="container">
         <Header />
-        <Navbar />
-        <Switch>
-          <Route path="/about">
-            <h1>About</h1>
-          </Route>
-          <Route path="/">
-            <h1>Home</h1>
-          </Route>
-        </Switch>
+        <NavbarComponent />
+        <div className="container">
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
       </div>
     </Router>
   );
