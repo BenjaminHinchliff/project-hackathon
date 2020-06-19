@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,10 +13,10 @@ import About from './pages/About';
 function App() {
   return (
     <Router>
-      <div className="container">
+      <Container>
         <Header />
         <NavbarComponent />
-        <div className="container">
+        <Container className="bg-light">
           <Switch>
             <Route path="/about">
               <About />
@@ -24,8 +25,8 @@ function App() {
               <Home />
             </Route>
           </Switch>
-        </div>
-      </div>
+        </Container>
+      </Container>
     </Router>
   );
 }
