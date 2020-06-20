@@ -1,10 +1,15 @@
-import blankAvatar from './img/blank-avatar.jpg';
 import cooper from './img/cooper.png';
 import benjamin from './img/benjamin.jpg';
 
-const team = [
+interface Person {
+  img?: string;
+  name: string;
+  role: string;
+  description: string;
+}
+
+const team: Person[] = [
   {
-    img: blankAvatar,
     name: 'Edward Lee',
     role: 'Operating Officer',
     description: `
@@ -13,7 +18,6 @@ const team = [
     `,
   },
   {
-    img: blankAvatar,
     name: 'Richard Dao',
     role: 'Administrative Officer',
     description: `
@@ -22,7 +26,6 @@ const team = [
     `,
   },
   {
-    img: blankAvatar,
     name: 'Justin Xiao',
     role: 'Media and Design Officer',
     description: `
@@ -31,7 +34,6 @@ const team = [
     `,
   },
   {
-    img: blankAvatar,
     name: 'Sahaana Rajesh',
     role: 'Financial Officer',
     description: `
@@ -58,7 +60,6 @@ const team = [
     `,
   },
   {
-    img: blankAvatar,
     name: 'Inan Xu',
     role: 'Website Officer',
     description: `

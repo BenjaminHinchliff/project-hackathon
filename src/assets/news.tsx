@@ -1,4 +1,10 @@
-const news = [
+interface Article {
+  title: string;
+  timestamp: string;
+  content: string;
+};
+
+const news: Article[] = [
   {
     title: 'Beginning of the Planning Phase',
     timestamp: 'Sat, 20 Jun 2020 00:53:03 GMT',
