@@ -1,5 +1,10 @@
+import blankAvatar from './img/blank-avatar.jpg';
+import cooper from './img/cooper.jpg';
+import benjamin from './img/benjamin.jpg';
+
 const team = [
   {
+    img: blankAvatar,
     name: 'Edward Lee',
     role: 'Operating Officer',
     description: `
@@ -8,6 +13,7 @@ const team = [
     `,
   },
   {
+    img: blankAvatar,
     name: 'Richard Dao',
     role: 'Administrative Officer',
     description: `
@@ -16,6 +22,7 @@ const team = [
     `,
   },
   {
+    img: blankAvatar,
     name: 'Justin Xiao',
     role: 'Media and Design Officer',
     description: `
@@ -24,6 +31,7 @@ const team = [
     `,
   },
   {
+    img: blankAvatar,
     name: 'Sahaana Rajesh',
     role: 'Financial Officer',
     description: `
@@ -32,6 +40,7 @@ const team = [
     `,
   },
   {
+    img: cooper,
     name: 'Cooper Schnuur',
     role: 'Marketing Officer',
     description: `
@@ -40,6 +49,7 @@ const team = [
     `,
   },
   {
+    img: benjamin,
     name: 'Benjamin Hinchliff',
     role: 'Technology Officer',
     description: `
@@ -48,6 +58,7 @@ const team = [
     `,
   },
   {
+    img: blankAvatar,
     name: 'Inan Xu',
     role: 'Website Officer',
     description: `
