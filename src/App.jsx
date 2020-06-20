@@ -9,6 +9,7 @@ import Header from './Header';
 import NavbarComponent from './Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             </Route>
           </Switch>
         </Container>
+        <Footer />
       </Container>
     </Router>
   );
