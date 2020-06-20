@@ -1,15 +1,18 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import news from '../assets/news';
 import PageHeader from '../components/page-header';
 
 function Home() {
-  const posts = news.map((item) => {
-    const { title, content } = item;
+  const posts = news.map((item, i) => {
+    const { title, timestamp, content } = item;
 
     return (
-      <div class="news-item">
+      <div className="news-item" key={i}>
+        {i > 0 && <hr />}
         <h3>{title}</h3>
+        <p className="text-muted mb-1">
+          Last modified: {new Date(timestamp).toLocaleString()}
+        </p>
         <p>{content}</p>
       </div>
     );

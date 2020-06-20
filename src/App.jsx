@@ -17,7 +17,7 @@ function App() {
       <Container>
         <Header />
         <NavbarComponent />
-        <div class="page-content">
+        <div className="page-content">
           <Switch>
             <Route path="/about">
               <About />
@@ -27,6 +27,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        <hr />
         <Footer />
       </Container>
     </Router>

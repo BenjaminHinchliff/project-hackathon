@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Card, Row } from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
 import PageHeader from '../components/page-header';
 import team from '../assets/team';
 import './About.scss';
