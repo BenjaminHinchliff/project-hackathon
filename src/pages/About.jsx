@@ -5,12 +5,11 @@ import team from '../assets/team';
 import './About.scss';
 
 function About() {
-  const cards = [];
-  team.forEach((member) => {
+  const cards = team.map((member, i) => {
     const { img, name, role, description } = member;
 
-    cards.push(
-      <Card className="team-card m-2">
+    return (
+      <Card className="team-card m-2" key={i}>
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
