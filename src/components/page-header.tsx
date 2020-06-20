@@ -1,6 +1,10 @@
 import React from 'react';
 
-function PageHeader({ children }) {
+interface Props {
+  children: React.ReactNode;
+};
+
+function PageHeader({ children }:  Props) {
   return (
     <h1 className="pb-2 border-bottom">{children}</h1>
   )
