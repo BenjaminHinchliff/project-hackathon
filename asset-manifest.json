@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/project-hackathon/static/css/main.044c45cc.chunk.css",
-    "main.js": "/project-hackathon/static/js/main.0cafeeab.chunk.js",
-    "main.js.map": "/project-hackathon/static/js/main.0cafeeab.chunk.js.map",
-    "runtime-main.js": "/project-hackathon/static/js/runtime-main.4ae10831.js",
-    "runtime-main.js.map": "/project-hackathon/static/js/runtime-main.4ae10831.js.map",
-    "static/js/2.f4b9d0ad.chunk.js": "/project-hackathon/static/js/2.f4b9d0ad.chunk.js",
-    "static/js/2.f4b9d0ad.chunk.js.map": "/project-hackathon/static/js/2.f4b9d0ad.chunk.js.map",
+    "main.css": "/project-hackathon/static/css/main.0b88b045.chunk.css",
+    "main.js": "/project-hackathon/static/js/main.8fb6a2a5.chunk.js",
+    "main.js.map": "/project-hackathon/static/js/main.8fb6a2a5.chunk.js.map",
+    "runtime-main.js": "/project-hackathon/static/js/runtime-main.ed84531c.js",
+    "runtime-main.js.map": "/project-hackathon/static/js/runtime-main.ed84531c.js.map",
+    "static/js/2.a07c96bb.chunk.js": "/project-hackathon/static/js/2.a07c96bb.chunk.js",
+    "static/js/2.a07c96bb.chunk.js.map": "/project-hackathon/static/js/2.a07c96bb.chunk.js.map",
     "index.html": "/project-hackathon/index.html",
-    "precache-manifest.65a08d1bb7d5da0bb2c67f655a151c14.js": "/project-hackathon/precache-manifest.65a08d1bb7d5da0bb2c67f655a151c14.js",
+    "precache-manifest.4d6dc5573a18781a31b38be9dae001f9.js": "/project-hackathon/precache-manifest.4d6dc5573a18781a31b38be9dae001f9.js",
     "service-worker.js": "/project-hackathon/service-worker.js",
-    "static/css/main.044c45cc.chunk.css.map": "/project-hackathon/static/css/main.044c45cc.chunk.css.map",
-    "static/js/2.f4b9d0ad.chunk.js.LICENSE.txt": "/project-hackathon/static/js/2.f4b9d0ad.chunk.js.LICENSE.txt",
+    "static/css/main.0b88b045.chunk.css.map": "/project-hackathon/static/css/main.0b88b045.chunk.css.map",
+    "static/js/2.a07c96bb.chunk.js.LICENSE.txt": "/project-hackathon/static/js/2.a07c96bb.chunk.js.LICENSE.txt",
     "static/media/benjamin.jpg": "/project-hackathon/static/media/benjamin.d3602f91.jpg",
     "static/media/blank-avatar.jpg": "/project-hackathon/static/media/blank-avatar.55330f08.jpg",
     "static/media/cooper.png": "/project-hackathon/static/media/cooper.23f370d9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4ae10831.js",
-    "static/js/2.f4b9d0ad.chunk.js",
-    "static/css/main.044c45cc.chunk.css",
-    "static/js/main.0cafeeab.chunk.js"
+    "static/js/runtime-main.ed84531c.js",
+    "static/js/2.a07c96bb.chunk.js",
+    "static/css/main.0b88b045.chunk.css",
+    "static/js/main.8fb6a2a5.chunk.js"
   ]
 }
