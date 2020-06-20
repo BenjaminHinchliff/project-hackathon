@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Card, Row } from 'react-bootstrap';
+import PageHeader from '../components/page-header';
 import team from '../assets/team';
 import './About.scss';
 
@@ -23,13 +24,12 @@ function About() {
   });
 
   return (
-    <Container>
-      <h4 className="display-4">Our Team</h4>
-      <hr />
-      <Row id="our-team">
+    <>
+      <PageHeader>Our Team</PageHeader>
+      <Container className="d-flex flex-wrap">
         {cards}
-      </Row>
-    </Container>
+      </Container>
+    </>
   );
 }
 

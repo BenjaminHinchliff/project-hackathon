@@ -1,14 +1,25 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import news from '../assets/news';
+import PageHeader from '../components/page-header';
 
 function Home() {
+  const posts = news.map((item) => {
+    const { title, content } = item;
+
+    return (
+      <div class="news-item">
+        <h3>{title}</h3>
+        <p>{content}</p>
+      </div>
+    );
+  });
+
   return (
-    <Container>
-      <p className="lead">
-        The is the landing page for all the latest news from our team.
-        Please check frequently to stay up to date!
-      </p>
-    </Container>
+    <>
+      <PageHeader>Latest News</PageHeader>
+      {posts}
+    </>
   );
 }
 
