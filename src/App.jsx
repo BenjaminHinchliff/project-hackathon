@@ -17,7 +17,7 @@ function App() {
       <Container>
         <Header />
         <NavbarComponent />
-        <div className="page-content">
+        <Container className="page-content bg-light pb-2">
           <Switch>
             <Route path="/about">
               <About />
@@ -26,8 +26,7 @@ function App() {
               <Home />
             </Route>
           </Switch>
-        </div>
-        <hr />
+        </Container>
         <Footer />
       </Container>
     </Router>

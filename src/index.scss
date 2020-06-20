@@ -1,1 +1,24 @@
+$orange: #ff871fff;
+$madder-lake: #cc2936ff;
+$lighter-blue: rgb(190, 222, 238);
+$light-blue: rgb(164, 197, 214);
+$slate-gray: rgb(32, 46, 53);
+$prussian-blue: #002642ff;
+$black-chocolate: #141204ff;
+
+$primary: $orange;
+$secondary: $prussian-blue;
+$danger: $madder-lake;
+$light: $light-blue;
+$info: $slate-gray;
+$dark: $black-chocolate;
+
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: $black-chocolate !important;
+}
+
+.team-card {
+  background-color: $lighter-blue !important;
+}

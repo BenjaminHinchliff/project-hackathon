@@ -1,5 +1,5 @@
 import blankAvatar from './img/blank-avatar.jpg';
-import cooper from './img/cooper.jpg';
+import cooper from './img/cooper.png';
 import benjamin from './img/benjamin.jpg';
 
 const team = [
