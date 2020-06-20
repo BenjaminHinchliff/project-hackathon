@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/project-hackathon/static/css/main.044c45cc.chunk.css",
-    "main.js": "/project-hackathon/static/js/main.d46b551b.chunk.js",
-    "main.js.map": "/project-hackathon/static/js/main.d46b551b.chunk.js.map",
+    "main.js": "/project-hackathon/static/js/main.606eb26e.chunk.js",
+    "main.js.map": "/project-hackathon/static/js/main.606eb26e.chunk.js.map",
     "runtime-main.js": "/project-hackathon/static/js/runtime-main.4ae10831.js",
     "runtime-main.js.map": "/project-hackathon/static/js/runtime-main.4ae10831.js.map",
     "static/js/2.35080580.chunk.js": "/project-hackathon/static/js/2.35080580.chunk.js",
     "static/js/2.35080580.chunk.js.map": "/project-hackathon/static/js/2.35080580.chunk.js.map",
     "index.html": "/project-hackathon/index.html",
-    "precache-manifest.cfc2ff432a090dfa446683450147f86a.js": "/project-hackathon/precache-manifest.cfc2ff432a090dfa446683450147f86a.js",
+    "precache-manifest.8a475bd0753a0ec3f30c7dbebf1d64ca.js": "/project-hackathon/precache-manifest.8a475bd0753a0ec3f30c7dbebf1d64ca.js",
     "service-worker.js": "/project-hackathon/service-worker.js",
     "static/css/main.044c45cc.chunk.css.map": "/project-hackathon/static/css/main.044c45cc.chunk.css.map",
     "static/js/2.35080580.chunk.js.LICENSE.txt": "/project-hackathon/static/js/2.35080580.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.4ae10831.js",
     "static/js/2.35080580.chunk.js",
     "static/css/main.044c45cc.chunk.css",
-    "static/js/main.d46b551b.chunk.js"
+    "static/js/main.606eb26e.chunk.js"
   ]
 }
