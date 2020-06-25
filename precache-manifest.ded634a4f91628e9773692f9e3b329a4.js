@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b92f7e93719880e4d71d7c59a3ef0d7",
+    "revision": "2a750a6de322855f1f8fcb410aa3a7c0",
     "url": "/project-hackathon/index.html"
   },
   {
-    "revision": "b0eba6fbe03ba1203fbd",
-    "url": "/project-hackathon/static/css/main.7f06577a.chunk.css"
+    "revision": "0789062a89745d987e6d",
+    "url": "/project-hackathon/static/css/main.bad1a5f8.chunk.css"
   },
   {
-    "revision": "94b49fb2493ffcebe0ec",
-    "url": "/project-hackathon/static/js/2.9eddf1d5.chunk.js"
+    "revision": "80c48cf8d981d5cbb1cb",
+    "url": "/project-hackathon/static/js/2.c3c83e49.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/project-hackathon/static/js/2.9eddf1d5.chunk.js.LICENSE.txt"
+    "url": "/project-hackathon/static/js/2.c3c83e49.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b0eba6fbe03ba1203fbd",
-    "url": "/project-hackathon/static/js/main.0abc10da.chunk.js"
+    "revision": "0789062a89745d987e6d",
+    "url": "/project-hackathon/static/js/main.a481c63b.chunk.js"
   },
   {
     "revision": "3d9bf977dd73cc6296bc",
     "url": "/project-hackathon/static/js/runtime-main.ed84531c.js"
+  },
+  {
+    "revision": "6561b9ac83352b08199163f44c301c2e",
+    "url": "/project-hackathon/static/media/banner.6561b9ac.png"
   },
   {
     "revision": "d3602f919a895b82fe207ac8374d4ed9",
