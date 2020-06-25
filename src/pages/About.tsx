@@ -24,7 +24,7 @@ function About() {
   return (
     <>
       <PageHeader>Our Team</PageHeader>
-      <Container className="d-flex flex-wrap">
+      <Container className="d-inline-flex justify-content-around flex-wrap">
         {cards}
       </Container>
     </>
