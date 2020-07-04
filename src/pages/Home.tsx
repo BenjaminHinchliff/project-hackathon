@@ -1,25 +1,27 @@
 import React from 'react';
-import news from '../assets/news';
 import PageHeader from '../components/page-header';
+import InstagramLogo from '../assets/img/instagram-logo.webp';
+import GmailLogo from '../assets/img/gmail-logo.png';
+import './Home.scss';
 
 function Home() {
-  const posts = news.map(({ title, timestamp, content }, i) => {
-    return (
-      <div className="news-item" key={i}>
-        {i > 0 && <hr />}
-        <h3>{title}</h3>
-        <p className="text-muted mb-1">
-          Last modified: {new Date(timestamp).toLocaleString()}
-        </p>
-        <p>{content}</p>
-      </div>
-    );
-  });
-
   return (
     <>
-      <PageHeader>Latest News</PageHeader>
-      {posts}
+      <PageHeader>Social Media</PageHeader>
+      <p>
+        <a href="https://www.instagram.com/projecthackathon/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="social-logo">
+          <img src={InstagramLogo} alt="Instagram" />
+        </a>
+        <a href="mailto:campohackathon@gmail.com"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="social-logo">
+          <img src={GmailLogo} alt="Gmail" />
+        </a>
+      </p>
     </>
   );
 }

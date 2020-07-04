@@ -1,14 +1,15 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import Home from './Home';
-import news from '../assets/news';
+import { escapeRegExp } from '../common';
 
 describe('page properly loads', () => {
-  it('all titles exist', () => {
+  it('all social links exist', () => {
     //expect.hasAssertions();
-    const { getByText } = render(<Home />);
-    news.forEach((item) => {
-      const newsItem = getByText(new RegExp(item.title, 'i'));
+    const { getByAltText } = render(<Home />);
+    const socials = ['instagram', 'gmail'];
+    socials.forEach((social) => {
+      const newsItem = getByAltText(new RegExp(escapeRegExp(social), 'i'));
       expect(newsItem).toBeInTheDocument();
     });
   });
