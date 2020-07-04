@@ -23,6 +23,12 @@ function About() {
 
   return (
     <>
+      <PageHeader>Our Mission</PageHeader>
+      <p>
+        I really don't know what to put here sooooooooo:<br/>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.
+      </p>
       <PageHeader>Our Team</PageHeader>
       <Container className="d-inline-flex justify-content-around flex-wrap">
         {cards}

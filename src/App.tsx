@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Footer from './Footer';
 import FourOFour from './pages/FourOFour';
+import News from './pages/News';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <NavbarComponent />
         <Container className="page-content bg-light pb-2">
           <Switch>
+            <Route exact path="/news" component={News} />
             <Route exact path="/about" component={About} />
             <Route exact path="/" component={Home} />
             <Route component={FourOFour} />

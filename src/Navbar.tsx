@@ -17,6 +17,9 @@ function NavbarComponent() {
           <LinkContainer to="/about">
             <Nav.Link className="text-primary">About</Nav.Link>
           </LinkContainer>
+          <LinkContainer to="/news">
+            <Nav.Link className="text-primary">News</Nav.Link>
+          </LinkContainer>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
