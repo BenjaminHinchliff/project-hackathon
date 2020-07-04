@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8897b24c67aa7eda06522216b2962f54",
+    "revision": "b7cfa10dfd63ce4f4cbed71accfcb674",
     "url": "/project-hackathon/index.html"
   },
   {
-    "revision": "80e11aaf7424864c196b",
-    "url": "/project-hackathon/static/css/main.4f986171.chunk.css"
+    "revision": "e1d645bf148a53fa61b2",
+    "url": "/project-hackathon/static/css/main.a85dbbf9.chunk.css"
   },
   {
-    "revision": "80c48cf8d981d5cbb1cb",
-    "url": "/project-hackathon/static/js/2.c3c83e49.chunk.js"
+    "revision": "4db48009de172308d177",
+    "url": "/project-hackathon/static/js/2.8cd0390e.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/project-hackathon/static/js/2.c3c83e49.chunk.js.LICENSE.txt"
+    "url": "/project-hackathon/static/js/2.8cd0390e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80e11aaf7424864c196b",
-    "url": "/project-hackathon/static/js/main.a481c63b.chunk.js"
+    "revision": "e1d645bf148a53fa61b2",
+    "url": "/project-hackathon/static/js/main.5b4fb553.chunk.js"
   },
   {
     "revision": "3d9bf977dd73cc6296bc",
@@ -38,5 +38,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "23f370d956820a7cd831a296bd73d096",
     "url": "/project-hackathon/static/media/cooper.23f370d9.png"
+  },
+  {
+    "revision": "53d29e80bab77c5d784f9b55c7451458",
+    "url": "/project-hackathon/static/media/gmail-logo.53d29e80.png"
+  },
+  {
+    "revision": "5ffe3e02f6c399427ae17130f8cbe1b2",
+    "url": "/project-hackathon/static/media/instagram-logo.5ffe3e02.webp"
   }
 ]);

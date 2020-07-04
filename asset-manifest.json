@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/project-hackathon/static/css/main.4f986171.chunk.css",
-    "main.js": "/project-hackathon/static/js/main.a481c63b.chunk.js",
-    "main.js.map": "/project-hackathon/static/js/main.a481c63b.chunk.js.map",
+    "main.css": "/project-hackathon/static/css/main.a85dbbf9.chunk.css",
+    "main.js": "/project-hackathon/static/js/main.5b4fb553.chunk.js",
+    "main.js.map": "/project-hackathon/static/js/main.5b4fb553.chunk.js.map",
     "runtime-main.js": "/project-hackathon/static/js/runtime-main.ed84531c.js",
     "runtime-main.js.map": "/project-hackathon/static/js/runtime-main.ed84531c.js.map",
-    "static/js/2.c3c83e49.chunk.js": "/project-hackathon/static/js/2.c3c83e49.chunk.js",
-    "static/js/2.c3c83e49.chunk.js.map": "/project-hackathon/static/js/2.c3c83e49.chunk.js.map",
+    "static/js/2.8cd0390e.chunk.js": "/project-hackathon/static/js/2.8cd0390e.chunk.js",
+    "static/js/2.8cd0390e.chunk.js.map": "/project-hackathon/static/js/2.8cd0390e.chunk.js.map",
     "index.html": "/project-hackathon/index.html",
-    "precache-manifest.62a4f21c5fea9cb71d77d5f174467774.js": "/project-hackathon/precache-manifest.62a4f21c5fea9cb71d77d5f174467774.js",
+    "precache-manifest.96a958218a8e0b0128c03ca0832179fe.js": "/project-hackathon/precache-manifest.96a958218a8e0b0128c03ca0832179fe.js",
     "service-worker.js": "/project-hackathon/service-worker.js",
-    "static/css/main.4f986171.chunk.css.map": "/project-hackathon/static/css/main.4f986171.chunk.css.map",
-    "static/js/2.c3c83e49.chunk.js.LICENSE.txt": "/project-hackathon/static/js/2.c3c83e49.chunk.js.LICENSE.txt",
+    "static/css/main.a85dbbf9.chunk.css.map": "/project-hackathon/static/css/main.a85dbbf9.chunk.css.map",
+    "static/js/2.8cd0390e.chunk.js.LICENSE.txt": "/project-hackathon/static/js/2.8cd0390e.chunk.js.LICENSE.txt",
     "static/media/banner.png": "/project-hackathon/static/media/banner.6561b9ac.png",
     "static/media/benjamin.jpg": "/project-hackathon/static/media/benjamin.d3602f91.jpg",
     "static/media/blank-avatar.jpg": "/project-hackathon/static/media/blank-avatar.55330f08.jpg",
-    "static/media/cooper.png": "/project-hackathon/static/media/cooper.23f370d9.png"
+    "static/media/cooper.png": "/project-hackathon/static/media/cooper.23f370d9.png",
+    "static/media/gmail-logo.png": "/project-hackathon/static/media/gmail-logo.53d29e80.png",
+    "static/media/instagram-logo.webp": "/project-hackathon/static/media/instagram-logo.5ffe3e02.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.ed84531c.js",
-    "static/js/2.c3c83e49.chunk.js",
-    "static/css/main.4f986171.chunk.css",
-    "static/js/main.a481c63b.chunk.js"
+    "static/js/2.8cd0390e.chunk.js",
+    "static/css/main.a85dbbf9.chunk.css",
+    "static/js/main.5b4fb553.chunk.js"
   ]
 }
